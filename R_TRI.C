@@ -9,9 +9,9 @@ void main()
    printf("Please Enter a Number: ");
    scanf("%i",&input);
 
-   for(j = 1; j < input; j++)
+   for(j = 0; j < input; j++)
    {
-     for(i = 1; i < j+1; i++)
+     for(i = 0; i < j+1; i++)
      {
 	printf("*");
      }
